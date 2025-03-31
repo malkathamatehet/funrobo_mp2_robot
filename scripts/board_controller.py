@@ -52,8 +52,8 @@ class BoardController:
         self.RGB_INVERT = False
         self.rgb_strip = PixelStrip(self.RGB_COUNT, self.RGB_PIN, self.RGB_FREQ_HZ,
                                     self.RGB_DMA, self.RGB_INVERT, self.RGB_BRIGHTNESS, self.RGB_CHANNEL)
-        self.rgb_strip.begin()
-        self.clear_rgb()
+        #self.rgb_strip.begin()
+        #self.clear_rgb()
 
         # initialize motors
         self.speed_control_delay = 0.2
